@@ -1,13 +1,55 @@
+body {
+    padding: 0px 230px;
+}
 
 .top-section {
     background-color: #1F2937;
-    padding: 0px 250px;
+    padding: 0px 200px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     padding: 15px 0px;
+}
+
+.intro {
+    display: flex;
+    padding: 100px 0px;
+    gap: 40px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.intro-left p {
+    margin: 10px 0px;
+}
+
+.intro-left button {
+    background-color: #3882f6;
+    padding: 7px 25px;
+    margin-top: 7px;
+    color: white;
+    border-radius: 6px;
+    border: none;
+}
+
+.intro-right {
+    flex: 0 0 auto;
+}
+
+.intro-right img {
+    height: 100%;
+    width: 100%;
 }
 
 .left-links {
