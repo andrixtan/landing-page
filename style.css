@@ -1,0 +1,29 @@
+
+.top-section {
+    background-color: #1F2937;
+    padding: 0px 250px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+
+.left-links {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.right-links {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    gap: 20px;
+}
