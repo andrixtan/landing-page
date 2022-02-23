@@ -122,3 +122,45 @@ a {
     font-size: 25px;
     font-weight: bold;
 }
+
+.middle-third {
+    background-color: #3882f6;
+    display: flex;
+    padding: 40px 120px;
+    margin: 70px 170px;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+
+.middle-third-left p {
+    color: white;
+    margin: 2px;
+}
+
+.title-call {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.middle-third-right {
+    display: flex;
+    align-items: center;
+}
+
+.middle-third-right button{
+    padding: 6px 25px;
+    background-color: #3882f6;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 8px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: white;
+}
